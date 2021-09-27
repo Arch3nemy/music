@@ -27,6 +27,11 @@ android {
             )
         }
     }
+
+    buildFeatures {
+        viewBinding  = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -64,8 +69,8 @@ fun DependencyHandlerScope.room() {
 }
 
 fun DependencyHandlerScope.di() {
-    implementation(Dependencies.hilt.dagger2)
-    kapt(Dependencies.hilt.dagger2compiler)
+    implementation(Dependencies.di.dagger2)
+    kapt(Dependencies.di.dagger2compiler)
 }
 
 fun DependencyHandlerScope.retrofit() {

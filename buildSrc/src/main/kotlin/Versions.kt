@@ -20,6 +20,7 @@ object Versions {
     const val material = "1.4.0"
 
     // di
+    const val javaxInject = "1"
     const val dagger = "2.30.1"
     const val daggerCompiler = "2.29.1"
 

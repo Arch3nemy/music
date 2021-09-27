@@ -2,7 +2,7 @@
 
 object Dependencies {
     val android = Android
-    val hilt = Di
+    val di = Di
     val async = Coroutines
     val jetpack = Jetpack
     val room = Room
