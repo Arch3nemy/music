@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="AlacrityBet.app" target="11" />
+      <module name="AlacrityBet.buildSrc" target="11" />
+      <module name="AlacrityBet.data" target="11" />
+      <module name="Template.app" target="11" />
+      <module name="Template.buildSrc" target="11" />
+      <module name="Template.data" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
