@@ -1,1 +1,1 @@
-# AlacrityBet MVVM, Dagger2, Clean Architecture, Room, Retrofit, Coroutines & Flow test example.
+# Template for kotlin gradle and clean architecture
