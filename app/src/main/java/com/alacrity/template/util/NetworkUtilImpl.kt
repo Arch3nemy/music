@@ -1,10 +1,10 @@
-package com.alacrity.alacritybet.util
+package com.alacrity.template.util
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.Network
 import android.net.NetworkInfo
-import com.alacrity.alacritybet.NetworkUtil
+import com.alacrity.template.NetworkUtil
 import javax.inject.Inject
 import javax.inject.Singleton
 

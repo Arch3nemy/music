@@ -1,4 +1,4 @@
-package com.alacrity.alacritybet.di
+package com.alacrity.template.di
 
 import android.content.Context
 import android.content.res.Resources

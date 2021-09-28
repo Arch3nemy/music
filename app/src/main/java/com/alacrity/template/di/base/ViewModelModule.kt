@@ -1,7 +1,6 @@
-package com.alacrity.alacritybet.di.base
+package com.alacrity.template.di.base
 
 import androidx.lifecycle.ViewModelProvider
-import com.alacrity.alacritybet.di.base.DaggerViewModelFactory
 import dagger.Binds
 import dagger.Module
 

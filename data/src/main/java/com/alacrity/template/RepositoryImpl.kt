@@ -1,4 +1,4 @@
-package com.alacrity.alacritybet
+package com.alacrity.template
 
 class RepositoryImpl: Repository {
 }

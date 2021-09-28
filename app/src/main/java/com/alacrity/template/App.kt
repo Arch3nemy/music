@@ -1,9 +1,9 @@
-package com.alacrity.alacritybet
+package com.alacrity.template
 
 import android.app.Application
-import com.alacrity.alacritybet.di.AppComponent
-import com.alacrity.alacritybet.di.AppModule
-import com.alacrity.alacritybet.di.DaggerAppComponent
+import com.alacrity.template.di.AppComponent
+import com.alacrity.template.di.AppModule
+import com.alacrity.template.di.DaggerAppComponent
 
 class App : Application() {
 

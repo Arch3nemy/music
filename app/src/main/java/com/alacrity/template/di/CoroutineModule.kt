@@ -1,7 +1,7 @@
-package com.alacrity.alacritybet.di
+package com.alacrity.template.di
 
-import com.alacrity.alacritybet.dispatchers.CoroutineDispatchers
-import com.alacrity.alacritybet.dispatchers.CoroutineDispatchersImpl
+import com.alacrity.template.dispatchers.CoroutineDispatchers
+import com.alacrity.template.dispatchers.CoroutineDispatchersImpl
 import dagger.Binds
 import dagger.Module
 import javax.inject.Singleton

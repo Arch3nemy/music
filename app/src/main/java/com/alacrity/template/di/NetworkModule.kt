@@ -1,10 +1,10 @@
-package com.alacrity.alacritybet.di
+package com.alacrity.template.di
 
 
-import com.alacrity.alacritybet.NetworkUtil
-import com.alacrity.alacritybet.Repository
-import com.alacrity.alacritybet.RepositoryImpl
-import com.alacrity.alacritybet.util.NetworkUtilImpl
+import com.alacrity.template.NetworkUtil
+import com.alacrity.template.Repository
+import com.alacrity.template.RepositoryImpl
+import com.alacrity.template.util.NetworkUtilImpl
 import dagger.Binds
 import dagger.Module
 import javax.inject.Singleton

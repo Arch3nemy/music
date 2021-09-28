@@ -1,4 +1,4 @@
-package com.alacrity.alacritybet
+package com.alacrity.template
 
 interface NetworkUtil {
 

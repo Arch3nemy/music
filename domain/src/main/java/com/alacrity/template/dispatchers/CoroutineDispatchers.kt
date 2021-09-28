@@ -1,4 +1,4 @@
-package com.alacrity.alacritybet.dispatchers
+package com.alacrity.template.dispatchers
 
 import kotlinx.coroutines.CoroutineDispatcher
 

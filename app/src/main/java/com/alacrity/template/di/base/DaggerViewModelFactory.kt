@@ -1,4 +1,4 @@
-package com.alacrity.alacritybet.di.base
+package com.alacrity.template.di.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
