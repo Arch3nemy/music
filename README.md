@@ -1,1 +1,1 @@
-# Template for kotlin gradle and clean architecture
+# Template for kotlin gradle, jetpack compose and clean architecture 
