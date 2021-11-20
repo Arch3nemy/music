@@ -8,5 +8,6 @@ object Dependencies {
     val room = Room
     val retrofit = Retrofit
     val image = Image
+    val compose = Compose
     val other = Other
 }

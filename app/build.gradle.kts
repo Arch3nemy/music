@@ -29,7 +29,11 @@ android {
     }
 
     buildFeatures {
-        viewBinding  = true
+        compose  = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.0.3"
     }
 
     compileOptions {
@@ -47,13 +51,13 @@ dependencies {
     room()
     async()
     jetpack()
+    compose()
 }
 
 fun DependencyHandlerScope.core() {
     implementation(Dependencies.other.kotlin)
     implementation(Dependencies.other.ktxCore)
     implementation(Dependencies.other.kotlinxDatetime)
-
     implementation(Dependencies.other.appcompat)
     implementation(Dependencies.other.constraintLayout)
 }
@@ -92,5 +96,21 @@ fun DependencyHandlerScope.async() {
 fun DependencyHandlerScope.jetpack() {
     implementation(Dependencies.jetpack.lifecycleExtensions)
     implementation(Dependencies.jetpack.lifecycleViewModel)
+}
+
+fun DependencyHandlerScope.compose() {
+    implementation(Dependencies.compose.runtime)
+    implementation(Dependencies.compose.ui)
+    implementation(Dependencies.compose.material)
+    implementation(Dependencies.compose.icons)
+    implementation(Dependencies.compose.foundationLayout)
+    implementation(Dependencies.compose.foundation)
+    implementation(Dependencies.compose.animation)
+    implementation(Dependencies.compose.uiTooling)
+    implementation(Dependencies.compose.liveData)
+    implementation(Dependencies.compose.activity)
+    implementation(Dependencies.compose.uiController)
+    implementation(Dependencies.compose.navigation)
+    implementation(Dependencies.compose.insets)
 }
 
