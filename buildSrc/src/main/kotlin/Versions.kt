@@ -2,47 +2,36 @@
 
 object Versions {
     //kotlin
-    const val kotlin = "1.5.21"
-    const val ktxCore = "1.6.0"
+    const val kotlin = "1.6.10"
+    const val ktxCore = "1.7.0"
 
     //coroutines
-    const val coroutines = "1.3.9"
+    const val coroutines = "1.6.0"
     const val lifecycle = "2.2.0"
 
-    //Image loading
-    const val gradle = "7.1.0-alpha01"
+    //android
+    const val gradle = "7.4.0"
+    const val appcompat = "1.4.1"
+    const val material = "1.5.0"
 
-    //ui
-    const val constraint = "2.1.0"
-
-    // android
-    const val appcompat = "1.3.1"
-    const val material = "1.4.0"
+    //jetpack compose
+    const val compose = "1.1.1"
+    const val navigation = "2.4.1"
+    const val accompanist = "0.23.0"
+    const val composeActivity = "1.4.0"
 
     // di
     const val javaxInject = "1"
-    const val dagger = "2.30.1"
-    const val daggerCompiler = "2.29.1"
+    const val dagger = "2.41"
+    const val daggerCompiler = "2.41"
 
     // logging
-    const val timber = "4.7.1"
-
-    // architecture components
-    const val startup = "1.0.0"
-
-    // test
-    const val mockWebServer = "4.9.1"
-    const val mockitoCore = "3.10.0"
+    const val timber = "5.0.1"
 
     // room
-    const val room = "2.3.0"
-
-    // retrofit2
-    const val retrofit2 = "2.9.0"
-    const val interceptor = "4.9.1"
+    const val room = "2.4.2"
 
     // other
-    const val glide = "0.10.0"
-    const val serialization = "1.2.1"
-    const val kotlinxDatetime = "0.2.1"
+    const val glide = "4.13.1"
+
 }

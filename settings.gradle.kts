@@ -1,4 +1,4 @@
-rootProject.name = "Template"
+rootProject.name = "Music"
 include(":app")
 include(":domain")
 include(":data")

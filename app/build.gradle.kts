@@ -9,7 +9,7 @@ android {
     buildToolsVersion = Dependencies.android.buildTools
 
     defaultConfig {
-        applicationId = "com.alacrity.alacritybet"
+        applicationId = "com.alacrity.music"
         minSdk = Android.minSdk
         targetSdk = Android.targetSdk
         versionCode = 1
@@ -29,7 +29,11 @@ android {
     }
 
     buildFeatures {
-        viewBinding  = true
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.1.0"
     }
 
     compileOptions {
@@ -42,8 +46,8 @@ dependencies {
     implementation(project(":domain"))
     implementation(project(":data"))
     core()
-    material()
     di()
+    log()
     room()
     async()
     jetpack()
@@ -52,13 +56,7 @@ dependencies {
 fun DependencyHandlerScope.core() {
     implementation(Dependencies.other.kotlin)
     implementation(Dependencies.other.ktxCore)
-    implementation(Dependencies.other.kotlinxDatetime)
-
     implementation(Dependencies.other.appcompat)
-    implementation(Dependencies.other.constraintLayout)
-}
-
-fun DependencyHandlerScope.material() {
     implementation(Dependencies.other.material)
 }
 
@@ -73,12 +71,6 @@ fun DependencyHandlerScope.di() {
     kapt(Dependencies.di.dagger2compiler)
 }
 
-fun DependencyHandlerScope.retrofit() {
-    implementation(Dependencies.retrofit.retrofit2)
-    implementation(Dependencies.retrofit.converterGson)
-    implementation(Dependencies.retrofit.interceptor)
-}
-
 fun DependencyHandlerScope.imageLoading() {
     implementation(Dependencies.image.glide)
     annotationProcessor(Dependencies.image.glideCompiler)
@@ -89,8 +81,23 @@ fun DependencyHandlerScope.async() {
     implementation(Dependencies.async.coroutinesAndroid)
 }
 
+fun DependencyHandlerScope.log() {
+    implementation(Dependencies.other.timber)
+}
+
 fun DependencyHandlerScope.jetpack() {
     implementation(Dependencies.jetpack.lifecycleExtensions)
     implementation(Dependencies.jetpack.lifecycleViewModel)
+    implementation(Dependencies.compose.runtime)
+    implementation(Dependencies.compose.ui)
+    implementation(Dependencies.compose.foundationLayout)
+    implementation(Dependencies.compose.material)
+    implementation(Dependencies.compose.icons)
+    implementation(Dependencies.compose.foundation)
+    implementation(Dependencies.compose.animation)
+    implementation(Dependencies.compose.activity)
+    implementation(Dependencies.compose.navigation)
+    implementation(Dependencies.compose.insets)
+    implementation(Dependencies.compose.uiController)
 }
 

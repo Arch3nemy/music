@@ -6,7 +6,7 @@ object Dependencies {
     val async = Coroutines
     val jetpack = Jetpack
     val room = Room
-    val retrofit = Retrofit
+    val compose = Compose
     val image = Image
     val other = Other
 }
