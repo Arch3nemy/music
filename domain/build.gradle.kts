@@ -11,7 +11,9 @@ java {
 dependencies {
     core()
     di()
+    gson()
     async()
+    reflection()
 }
 
 fun DependencyHandlerScope.core() {
@@ -24,4 +26,12 @@ fun DependencyHandlerScope.di() {
 
 fun DependencyHandlerScope.async() {
     implementation(Dependencies.async.coroutinesCore)
+}
+
+fun DependencyHandlerScope.reflection() {
+    implementation(Dependencies.other.reflection)
+}
+
+fun DependencyHandlerScope.gson() {
+    implementation(Dependencies.other.gson)
 }

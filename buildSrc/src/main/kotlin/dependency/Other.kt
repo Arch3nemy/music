@@ -20,4 +20,8 @@ object Other {
 
     const val material = "com.google.android.material:material:${Versions.material}"
 
+    const val gson = "com.google.code.gson:gson:${Versions.gson}"
+
+    const val reflection = "org.jetbrains.kotlin:kotlin-reflect:${Versions.reflection}"
+
 }

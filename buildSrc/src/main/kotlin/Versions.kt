@@ -19,6 +19,8 @@ object Versions {
     const val navigation = "2.4.1"
     const val accompanist = "0.23.0"
     const val composeActivity = "1.4.0"
+    const val viewPager = "0.24.3-alpha"
+    const val collapsingToolbar = "2.3.2"
 
     // di
     const val javaxInject = "1"
@@ -31,7 +33,17 @@ object Versions {
     // room
     const val room = "2.4.2"
 
+    //media3
+    const val media3 = "1.0.0-alpha01"
+
+    //json parse
+    const val gson = "2.9.0"
+
+    //reflection
+    const val reflection = "1.6.10"
+
     // other
-    const val glide = "4.13.1"
+    const val landscapist = "1.3.9"
+    const val glide = "4.12.0"
 
 }

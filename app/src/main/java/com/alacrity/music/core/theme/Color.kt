@@ -1,0 +1,42 @@
+package com.alacrity.music.core.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Red200 = Color(0xfff297a2)
+val Red300 = Color(0xffea6d7e)
+val Red700 = Color(0xffdd0d3c)
+val Red800 = Color(0xffd00036)
+val Red900 = Color(0xffc20029)
+
+
+
+val BrightGray = Color(0xFFF1F1F1)
+
+
+val TextGray = Color(0xFF858585)
+val LightPink = Color(0xFFF0E5FF)
+val TransparentWhite = Color(0x25FFFFFF)
+val Transparent = Color.Transparent
+val YellowBorder = Color(0xFFFFD976)
+val Gray = Color(0xFFC4C4C4)
+val DarkGrayBorder = Color(0xFFCDCDCD)
+
+//Lazy row items
+val DarkGray = Color(0xFF222121)
+//Selected item
+val DarkOrange = Color(0xFF962806)
+//Primary
+val Purple = Color(0xff3700B3)
+//Text & Icons in Dark Theme
+val TextAndIconsDark = Color(0xFFFFFFFF)
+
+
+val Yellow = Color(0xFFFFEB3B)
+val Blue = Color(0xFF03A9F4)
+val Green = Color(0xFF43A247)
+val Orange = Color(0xFFFF5722)
+val Red = Color(0xFF920535)
+val Violette = Color(0xFF9C27B0)
+val LightYellow = Color(0xFFFFD976)
+
+val GreenX = Color(0xFFCDDC39)

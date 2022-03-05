@@ -33,4 +33,21 @@ android {
 
 dependencies {
     implementation(project(":domain"))
+    implementation(project(":music"))
+    audio()
+    log()
+    core()
+}
+
+fun DependencyHandlerScope.core() {
+    implementation(Dependencies.other.kotlin)
+    implementation(Dependencies.other.ktxCore)
+}
+
+fun DependencyHandlerScope.audio() {
+    implementation(Dependencies.audio.exoPlayer)
+}
+
+fun DependencyHandlerScope.log() {
+    implementation(Dependencies.other.timber)
 }

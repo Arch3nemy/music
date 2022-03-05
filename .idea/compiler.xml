@@ -6,8 +6,10 @@
       <module name="AlacrityBet.buildSrc" target="11" />
       <module name="AlacrityBet.data" target="11" />
       <module name="Music.app" target="11" />
+      <module name="Music.app.music" target="11" />
       <module name="Music.buildSrc" target="11" />
       <module name="Music.data" target="11" />
+      <module name="Music.music" target="11" />
       <module name="Template.app" target="11" />
       <module name="Template.buildSrc" target="11" />
       <module name="Template.data" target="11" />

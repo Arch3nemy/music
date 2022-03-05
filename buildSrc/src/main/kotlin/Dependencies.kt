@@ -8,6 +8,6 @@ object Dependencies {
     val room = Room
     val compose = Compose
     val image = Image
-    val compose = Compose
+    val audio = Media3
     val other = Other
 }

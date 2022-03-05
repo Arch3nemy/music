@@ -4,7 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.Network
 import android.net.NetworkInfo
-import com.alacrity.music.NetworkUtil
+import com.alacrity.music.utils.NetworkUtil
 import javax.inject.Inject
 import javax.inject.Singleton
 

@@ -45,12 +45,18 @@ android {
 dependencies {
     implementation(project(":domain"))
     implementation(project(":data"))
-    core()
+    implementation(project(":music"))
+
     di()
     log()
+    gson()
+    core()
     room()
+    audio()
     async()
     jetpack()
+    reflection()
+    image()
 }
 
 fun DependencyHandlerScope.core() {
@@ -71,9 +77,10 @@ fun DependencyHandlerScope.di() {
     kapt(Dependencies.di.dagger2compiler)
 }
 
-fun DependencyHandlerScope.imageLoading() {
+fun DependencyHandlerScope.image() {
+    implementation(Dependencies.image.landscapist)
     implementation(Dependencies.image.glide)
-    annotationProcessor(Dependencies.image.glideCompiler)
+    kapt(Dependencies.image.glideCompiler)
 }
 
 fun DependencyHandlerScope.async() {
@@ -93,11 +100,31 @@ fun DependencyHandlerScope.jetpack() {
     implementation(Dependencies.compose.foundationLayout)
     implementation(Dependencies.compose.material)
     implementation(Dependencies.compose.icons)
+    implementation(Dependencies.compose.uiUtil)
     implementation(Dependencies.compose.foundation)
     implementation(Dependencies.compose.animation)
     implementation(Dependencies.compose.activity)
     implementation(Dependencies.compose.navigation)
     implementation(Dependencies.compose.insets)
     implementation(Dependencies.compose.uiController)
+    implementation(Dependencies.compose.permissions)
+    implementation(Dependencies.compose.viewPager)
+    implementation(Dependencies.compose.collapsingToolbar)
+}
+
+fun DependencyHandlerScope.audio() {
+    implementation(Dependencies.audio.dash)
+    implementation(Dependencies.audio.hls)
+    implementation(Dependencies.audio.ui)
+    implementation(Dependencies.audio.session)
+    implementation(Dependencies.audio.exoPlayer)
+}
+
+fun DependencyHandlerScope.gson() {
+    implementation(Dependencies.other.gson)
+}
+
+fun DependencyHandlerScope.reflection() {
+    implementation(Dependencies.other.reflection)
 }
 
